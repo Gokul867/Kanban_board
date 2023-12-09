@@ -1,0 +1,94 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ticket {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.priority-0 {
+  background-color: #f8d7da;
+}
+
+.priority-1 {
+  background-color: #fff3cd;
+}
+
+.priority-2 {
+  background-color: #cce5ff;
+}
+
+.priority-3 {
+  background-color: #c3e6cb;
+}
+
+.priority-4 {
+  background-color: #d4edda;
+}
+
+
+
+/* My  */
+
+.top-bar {
+  background-color: #ffffff;
+  /* Pure white background color */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  /* Optional: Add a subtle box shadow */
+}
+
+.display-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  /* Optional: Choose a text color */
+}
+
+.scroll-down {
+  font-size: 14px;
+  color: #555;
+  /* Optional: Choose a text color */
+  cursor: pointer;
+}
+
+.header {
+  color: #333;
+}

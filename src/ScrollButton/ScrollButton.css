@@ -1,0 +1,49 @@
+.Box {
+    width: 200px;
+    height: 70px;
+    border: None solid white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(249, 247, 247, 0.923);
+    padding-left: 1%;
+
+}
+
+.group,
+.order {
+    color: rgb(112, 111, 111);
+    font-weight: 400;
+}
+
+.button {
+    height: 25px;
+    width: 70px;
+}
+
+.display {
+    height: 5vh;
+    width: max-content;
+    background-color: white;
+    padding-left: 1%;
+    padding-top: 1%;
+
+}
+
+.display_button {
+    vertical-align: auto;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    font-size: medium;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    border: None solid white;
+    border-radius: 8px;
+}
+
+.exterior_box {
+    padding-left: 1%;
+}

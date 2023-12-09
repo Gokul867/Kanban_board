@@ -1,0 +1,6 @@
+.kanban-board {
+    background-color: rgba(249, 247, 247, 0.923);
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+}
